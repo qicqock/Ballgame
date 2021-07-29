@@ -23,11 +23,4 @@ public class Floor : MonoBehaviour
     {
         transform.position = transform.position + newPos;
     }
-
-    // public void FixedSize()
-    // {
-    //     float floorSize = Roof.FixedSize();
-    //     gameObject.transform.localScale = new Vector3(2.5f, roofSize, 0.2f);
-    //     return roofSize;
-    // }
 }
